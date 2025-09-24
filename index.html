@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Virtual 3D Art Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="ideas.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <span class="logo">My Gallery</span>
+      <a href="javascript:void(0);" onclick="showHome()">Home</a>
+      <a href="javascript:void(0);" onclick="showIdeas()">Ideas</a>
+      <a href="javascript:void(0);" onclick="showContact()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- MAIN SECTIONS -->
+  <div id="home" style="display:block;">
+    <!-- Put your cube/gallery/home content here -->
+    <div class="scene">
+      <div class="cube" id="cube">
+        <div class="wall front">
+
+          <div class="welcome-box animated-pop">
+            <!-- your welcome content here -->
+            <h2>Welcome to 3D Art Gallery</h2>
+            <!-- ...rest... -->
+          </div>
+
+          <div class="buy-section">
+            <button onclick="openGallery(0)">My paintings</button>
+            <button onclick="openGallery(1)">My sketches</button>
+            <button onclick="openGallery(2)">Monuments sketches</button>
+          </div>
+        </div>
+        <div class="wall back"></div>
+        <div class="wall left"></div>
+        <div class="wall right"></div>
+        <div class="wall top"></div>
+        <div class="wall bottom"></div>
+      </div>
+      <div class="controls">
+        <button onclick="rotateCube('left')">⟲ Left</button>
+        <button onclick="rotateCube('right')">Right ⟳</button>
+        <button onclick="rotateCube('top')">⟲ Top</button>
+        <button onclick="rotateCube('bottom')">bottom ⟳</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="gallery" style="display:none;">
+    <!-- Put your gallery content here -->
+    <button class="gallery-back" onclick="showHome()">&#8592; Back</button>
+    <h1 id="galleryTitle"></h1>
+    <div class="gallery-grid" id="galleryGrid"></div>
+    <!-- Modal Structure for Image and side description -->
+    <div id="imgModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <img id="modalImage" src="" alt="Gallery Image" />
+        <div id="modalDesc" class="modal-desc"></div>
+      </div>
+    </div>
+
+  </div>
+  </main>
+
+  <div id="ideas-page" style="display:none;">
+    <div class="container">
+      <h1>Got Drawing or Painting Ideas?</h1>
+      <p>Share your creative thoughts and inspire others!</p>
+      <form id="ideaForm">
+        <textarea id="ideaInput" placeholder="Type your idea here..." rows="6"></textarea>
+        <button type="submit">Submit Idea</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="contact" style="display:none;">
+    <h1 class="contact-title">Feel Free To Reach Out !</h1>
+    <div class="contact-panels">
+      <div class="contact-panel info">
+        <h2>Contact Information</h2>
+        <hr>
+        <p>If this website created a wonderful experience for you and left a lasting impression, then feel free to reach
+          out!</p>
+        <p>
+        <p>
+          <span class="contact-icon"><i class="fas fa-phone"></i></span> 8744845168<br>
+
+          <span class="contact-icon"><i class="fas fa-envelope"></i></span> sanjanasharma2844@gmail.com<br>
+
+          <span class="contact-icon"><i class="fab fa-linkedin"></i></span>
+          <a href="https://www.linkedin.com/in/sanjana-sharma-a01a04285/" target="_blank" rel="noreferrer">sanjana
+            sharma</a><br>
+
+          <span class="contact-icon"><i class="fab fa-github"></i></span>
+          <a href="https://github.com/sanjana762" target="_blank" rel="noreferrer">GitHub Profile</a>
+        </p>
+
+      </div>
+      <div class="contact-panel resume">
+        <h2>Resume</h2>
+        <hr>
+        <p>And if you like what you see, feel free to check out my resume for more information in the link below!</p>
+        <a href="Sanjana_Sharma_Resume .pdf" class="download-btn" download>
+          DOWNLOAD HERE &#128229;
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <span>Contact: <a href="mailto:sanjanasharma2844@gmail.com">sanjanasharma2844@gmail.com</a> | Phone:
+        8744845168</span>
+      <span>Linkedin: <a href="https://www.linkedin.com/in/sanjana-sharma-a01a04285/">sanjana sharma</a> | <span>github:
+          <a href="https://github.com/sanjana762">sanjana762</a></span>
+
+
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+  <!-- use vanta js for animation in the bg  -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+<script>
+VANTA.WAVES({
+  el: "#vanta-bg",
+  color: 0x884f13,
+  shininess: 50,
+  waveHeight: 20,
+  waveSpeed: 1.0,
+  zoom: 0.85
+});
+</script> -->
+
+</body>
+
+</html>

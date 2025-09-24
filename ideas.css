@@ -1,0 +1,96 @@
+#ideas-page {
+  height: 100vh;
+  margin: 0;
+  /* background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+#ideas-page .container {
+  background: rgba(0,0,0,0.6);
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff9800aa;
+  text-align: center;
+  animation: ideas-fadeIn 1.6s ease-in-out forwards;
+}
+
+#ideas-page h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  animation: ideas-slideDown 1s ease forwards;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 1200;
+  font-style: normal;
+
+}
+
+#ideas-page p {
+  font-size: 1.2rem;
+  margin-bottom: 90px;
+
+}
+
+#ideas-page textarea {
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  padding: 16px;
+  font-size: 1.1rem;
+  resize: none;
+  outline: none;
+  box-shadow: 0 0 15px #ff6f00 inset;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transition: border-color 0.5s ease;
+  animation: ideas-pulseBorder 2s infinite;
+}
+
+#ideas-page textarea::placeholder {
+  color: #ffcc80;
+}
+
+#ideas-page textarea:focus {
+  border-color: #ffab40;
+  animation: none;
+  box-shadow: 0 0 25px #ffc107;
+}
+
+#ideas-page button {
+  margin-top: 24px;
+  padding: 14px 42px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background: #ff8f00;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #ffab40;
+  transition: background 0.35s ease, transform 0.3s ease;
+}
+
+#ideas-page button:hover {
+  background: #ffa726;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes ideas-fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes ideas-slideDown {
+  from {opacity: 0; transform: translateY(-40px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes ideas-pulseBorder {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #ffab40; }
+}
