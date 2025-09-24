@@ -31,32 +31,32 @@ const galleries = [
     ]
   },
   {
-    title: "My Sketches",
+   title: "My Sketches",
     images: [
-      { src: "sketch1.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch2.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch3.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch4.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch5.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch6.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch7.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch8.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch9.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch10.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch11.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch12.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch13.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch14.jpg", desc: "Golden Autumn in the forest." },
-      { src: "sketch15.jpg", desc: "Golden Autumn in the forest." }
+      { src: "sketch1.jpg", desc: "Eye Reflection  This sketch shows a realistic human eye with detailed eyelashes and shading. Inside the iris, two silhouetted figures stand side by side, as if captured in memory or reflection. The concept symbolizes how the eye holds stories, emotions, and people we can’t forget. It beautifully portrays vision as more than sight—its a window to feelings.The mood suggests nostalgia and emotional attachment" },
+      { src: "sketch2.jpg", desc: "GWoman with Cigarette  This portrait depicts a woman with messy hair falling across her face, holding a cigarette between her lips. Her expression looks tired and rebellious, with strong shading around the eyes to show intensity. The cigarette and posture suggest carelessness, defiance, or a broken yet bold personality. It reflects themes of exhaustion and inner struggle. The sketch captures raw emotions with simplicity." },
+      { src: "sketch3.jpg", desc: "GIn this artwork, a woman hides her face with her hand, but instead of skin, the hand carries words like “Fine,” “Broken,” “Stronger,” “Mistake.” These words show how people mask their real pain behind forced expressions. The tilted head and shading add drama to the sketch. It symbolizes hidden struggles, unspoken truths, and the pressure to appear “okay.” The drawing speaks strongly about mental health and emotional facades." },
+      { src: "sketch4.jpg", desc: "This sketch shows a face in side profile, tilted upward with hair flowing backward. A visible crack runs down the face, symbolizing fragility and broken identity. The parted lips and dramatic shading add a sense of sorrow and release. It represents how people wear masks but eventually break under pressure. The artwork combines elegance with deep symbolism about human vulnerability." },
+      { src: "sketch5.jpg", desc: "A human bust is drawn with the head replaced by a melting candle. Wax drips down over the face, while a small flame burns at the top. The imagery strongly symbolizes burnout, time running out, or a person who gives light to others while melting away themselves. The smooth shading highlights the surreal concept beautifully. It’s a powerful metaphor for sacrifice and emotional exhaustion." },
+      { src: "sketch6.jpg", desc: "This drawing merges a woman’s calm face with skyscrapers growing out of her head. The closed eyes suggest she is lost in thought, carrying the weight of the city within her mind. The concept represents ambition, dreams, or the chaos of modern urban life. It shows how environments shape identities and thoughts. The blending of portrait and architecture gives the sketch a surreal, thought-provoking style." },
+      { src: "sketch7.jpg", desc: "This sketch shows multiple overlapping faces of a woman expressing different emotions. One face screams upward, another looks sideways, and an eye emerges in between. The chaotic arrangement symbolizes inner conflict, fragmented identity, and the struggle of dealing with multiple emotions. The dramatic shading enhances the intensity. It portrays the turbulence of a restless mind." },
+      { src: "sketch8.jpg", desc: "A divine sketch of Lord Ganesha sitting gracefully, holding objects in his hands. The detailing on his posture, trunk, and ornaments reflects devotion and serenity. His expression is calm, radiating positivity and wisdom. The seated pose adds to the peaceful composition. It represents blessings, purity, and spiritual inspiration." },
+      { src: "sketch9.jpg", desc: "This artwork portrays a girl holding a smiling mask in front of her face. Behind the mask, her true face looks sad and teary, revealing hidden pain. The contrast between the mask and her expression symbolizes how people often hide suffering behind false smiles. The sketch captures the silent struggles of pretending to be fine. It conveys strong emotions about mental health and inner battles." },
+      { src: "sketch10.jpg", desc: "A graceful sketch of a woman drawn from the back, draped in a saree. The detailing of the saree pleats and her bun hairstyle emphasizes elegance. Her posture, with one hand resting near her waist, suggests poise and confidence. The minimalistic background highlights her presence. It represents traditional beauty and feminine grace." },
+      { src: "sketch11.jpg", desc: "This drawing shows a girl looking into a mirror where she sees not her reflection, but a skeleton holding a rose. A caption beneath reads: “She lost something she could never have.” The concept conveys grief, loss, and unfulfilled desires. The rose adds contrast, symbolizing love and longing. It is a powerful piece about the inevitability of death and the sorrow of unattainable dreams." },
+      { src: "sketch12.jpg", desc: "This simple yet deep sketch depicts a human figure with the head replaced by a large, dark cloud. The faceless body suggests identity loss, while the cloud represents confusion, overthinking, or depression. The minimal detail adds strength to the metaphor. It portrays how a storm of thoughts can overshadow one’s clarity. The artwork’s simplicity makes its message striking." },
+      { src: "sketch13.jpg", desc: "This sketch shows a human figure holding their head, which is replaced with a scribbled mess of lines. The rough strokes symbolize mental chaos, stress, or overwhelming thoughts. The posture of clutching the head emphasizes frustration and inner struggle. It represents how confusion or anxiety can distort clarity. The minimal detailing highlights the raw emotional expression." },
+      { src: "sketch14.jpg", desc: "This artwork portrays a man in profile with a smile, but inside his head, a small child is sketched sitting in a curled position. The contrast between the outer happy face and the inner lonely child symbolizes hidden pain, nostalgia, or unresolved emotions. It reflects how people often carry their past within them. The sketch powerfully captures the conflict between appearance and reality." },
+      { src: "sketch15.jpg", desc: "A finely detailed sketch of a squirrel sitting upright, holding food in its tiny paws. The fur texture, fluffy tail, and sharp eyes are carefully shaded for realism. The natural pose shows attentiveness, as if the squirrel is captured mid-meal. Unlike the other surreal artworks, this one focuses on lifelike observation. It demonstrates skill in animal sketching and attention to small details." }
     ]
   },
   {
-    title: "Portrait Gallery",
+  title: "Portrait Gallery",
     images: [
-      { src: "monument1.jpg", desc: "Golden Autumn in the forest." },
-      { src: "monument2.jpg", desc: "Golden Autumn in the forest." },
-      { src: "monument3.jpg", desc: "Golden Autumn in the forest." },
-      { src: "monument4.jpg", desc: "Golden Autumn in the forest." }
+      { src: "monument1.jpg", desc: "This detailed pencil sketch illustrates a historic stepwell showcasing intricate architectural elements. The receding arches and carefully shaded depth capture the grandeur and complexity of this ancient water structure, highlighting the symmetry and precise craftsmanship typical of such monuments." },
+      { src: "monument2.jpg", desc: "A finely rendered depiction of the Roman Colosseum, this sketch uses delicate line work and shading to bring out the layered arches and structural magnificence of the iconic amphitheater. The artist captures the monumental scale and historic richness with careful perspective and detail." },
+      { src: "monument3.jpg", desc: "This artwork portrays a famous historic fort or palace facade with domes and minarets, accentuated by the national flag. The pencil shading emphasizes the architectural finesse and cultural significance of the monument, evoking a sense of pride and heritage through artistry." },
+      { src: "monument4.jpg", desc: "A majestic gateway structure is presented here with intricate brick and stone detailing. The artist’s use of perspective and shading highlights the imposing arches and towers, reflecting both the strength and beauty of traditional fortress architecture." }
     ]
   }
 ];
@@ -94,34 +94,23 @@ function openModal(src, desc) {
   var modalImage = document.getElementById("modalImage");
   var modalDesc = document.getElementById("modalDesc");
 
-  // Pehle modal hide rakhein, image try karein load hone ka
   modal.style.display = "none";
   modalImage.src = src;
   modalDesc.textContent = desc;
-  
-  // Agar image load ho jati hai
+
   modalImage.onload = function() {
     modal.style.display = "flex";
     document.getElementById("navbar").style.display = "none";
   }
-  // Agar image nahi milti
+
   modalImage.onerror = function() {
-    modal.style.display = "none"; // Modal show mat karo
+    modal.style.display = "none"; 
     document.getElementById("navbar").style.display = "flex";
-    // Optionally, ek alert ya toast bhi dikha sakte hain
-    // alert("Image load nahi hui!");
+   
   }
 }
 
 
-
-// function openModal(src, desc) {
-//   const modal = document.getElementById('imgModal');
-//   modal.style.display = 'flex';
-//   document.getElementById('modalImage').src = src;
-//   document.getElementById('modalDesc').textContent = desc;
-//   document.getElementById('navbar').style.display = 'none';
-// }
 function closeModal() {
   document.getElementById('imgModal').style.display = 'none';
   document.getElementById('navbar').style.display = 'flex';
@@ -160,29 +149,6 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   }
 });
-// document.addEventListener('DOMContentLoaded', function () {
-//   const form = document.getElementById('ideaForm');
-//   form.addEventListener('submit', function (event) {
-//     event.preventDefault(); // prevent default form submit
 
-//     alert('Thank you for your suggestions!');
 
-//     // Hide ideas page and show home page
-//     document.getElementById('ideas-page').style.display = 'none';
-//     document.getElementById('home').style.display = 'block';
 
-//     // Optionally clear textarea
-//     form.reset();
-//   });
-// });
-// function showHome() {
-//   document.getElementById('home').style.display = 'block';
-//   document.getElementById('gallery').style.display = 'none';
-//   document.getElementById('ideas-page').style.display = 'none';
-// }
-
-// function showIdeas() {
-//   document.getElementById('home').style.display = 'none';
-//   document.getElementById('gallery').style.display = 'none';
-//   document.getElementById('ideas-page').style.display = 'flex'; // or 'block'
-// }
