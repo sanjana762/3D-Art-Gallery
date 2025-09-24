@@ -27,7 +27,7 @@ const galleries = [
       { src: "painting6.jpg", desc: "A mythical figure embodies the spirit of nature—a serene woman with emerald skin, adorned with a crown of vibrant blossoms and delicate vines. Her tranquil expression and flowing hair paint a fantastical tale of harmony between humanity and earth, blending fantasy elements with botanical beauty in vivid pinks and greens." },
       { src: "painting7.jpg", desc: "In haunting shades of black, white, and gray, a young girl reaches upward toward a bright red balloon drifting away. This poignant image explores themes of innocence, loss, and fleeting moments of joy. The stark contrast between the muted setting and the vibrant balloon intensifies the emotional pull, making it a powerful meditation on hope and melancholy." },
       { src: "painting8.jpg", desc: "A provocative portrayal of the Joker, this piece uses sharp lines and vivid colors, particularly reds and blues, to convey the complex persona behind the chaotic grin. The exaggerated makeup and intense eyes suggest a collision of madness and insight, making viewers ponder the fine line between humor and darkness" },
-      { src: "painting9.jpg", desc: "apturing a tranquil urban moment, this painting shows a solitary lamppost glowing softly beneath a twilight sky flushed with pastel pinks and deep blues. A crescent moon hovers peacefully above silhouetted trees and power lines, inviting quiet reflection and the comforting solitude found in city nights." }
+      { src: "painting9.jpg", desc: "capturing a tranquil urban moment, this painting shows a solitary lamppost glowing softly beneath a twilight sky flushed with pastel pinks and deep blues. A crescent moon hovers peacefully above silhouetted trees and power lines, inviting quiet reflection and the comforting solitude found in city nights." }
     ]
   },
   {
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   }
 });
+
 
 
 
